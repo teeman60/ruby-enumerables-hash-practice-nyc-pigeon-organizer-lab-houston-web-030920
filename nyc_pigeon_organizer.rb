@@ -40,4 +40,3 @@ def nyc_pigeon_organizer(data)
   return hash
 
 end
-binding.pry
