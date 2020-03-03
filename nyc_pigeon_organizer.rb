@@ -39,4 +39,4 @@ def personal_attributes(data)
   return hash
 
 end
-binding.pry
+# binding.pry
