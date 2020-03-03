@@ -19,7 +19,7 @@
 # end
 # binding.pry
 
-def personal_attributes(data)
+def nyc_pigeon_organizer(data)
   unique_name = []
   hash = {}
   data.each do |attribute, value|
