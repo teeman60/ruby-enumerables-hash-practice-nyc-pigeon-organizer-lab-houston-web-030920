@@ -7,7 +7,7 @@ new_hash = {}
     value.each do |type, names|
       names.each do |ele|
         if !new_hash[ele]
-        new_hash[ele] = somthn
+        new_hash[ele] = personal_attributes(data)
         end
       end
     end
