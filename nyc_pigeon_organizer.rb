@@ -16,7 +16,7 @@ new_hash = {}
   return new_hash
 
 end
-
+binding.pry
 
 def personal_attributes(data)
   unique_name = []
