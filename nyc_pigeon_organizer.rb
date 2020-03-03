@@ -1,23 +1,23 @@
-require 'pry'
-
-def nyc_pigeon_organizer(data)
-  # write your code here!
-  binding.pry
-new_hash = {}
-  data.each do |attribute, value|
-    value.each do |type, names|
-      names.each do |ele|
-        if !new_hash[ele]
-        new_hash[ele] = personal_attributes(data)
-        end
-      end
-    end
-  end
-
-  return new_hash
-
-end
-binding.pry
+# require 'pry'
+# 
+# def nyc_pigeon_organizer(data)
+#   # write your code here!
+#   binding.pry
+# new_hash = {}
+#   data.each do |attribute, value|
+#     value.each do |type, names|
+#       names.each do |ele|
+#         if !new_hash[ele]
+#         new_hash[ele] = personal_attributes(data)
+#         end
+#       end
+#     end
+#   end
+# 
+#   return new_hash
+# 
+# end
+# binding.pry
 
 def personal_attributes(data)
   unique_name = []
